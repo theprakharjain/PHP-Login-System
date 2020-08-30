@@ -1,0 +1,220 @@
+/* .nav-header {
+  border: 1px solid #ccc;
+  border-width: 1px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: lightcoral;
+} */
+
+/* Nav Bar List Design */
+
+ul {
+  list-style-type: none;
+  margin: 1px;
+  padding: 1px;
+  overflow: hidden;
+  background-color: #2ebc99; /* #2ebc99 #8842d5*/
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 15px 17px;
+  text-decoration: none;
+}
+
+/* A color changes when hovered over */
+li a:hover {
+  background-color: rgb(211, 135, 130); /*  #7300ff #lightcoral #coral*/
+}
+
+li a.active {
+  background-color: rgb(211, 135, 130);
+}
+
+li {
+  border-right: 2px solid white;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+ul {
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+}
+
+/* Login Form Style */
+
+.container {
+  font: 95% Arial, Helvetica, sans-serif;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 16px;
+  background: #f7f7f7;
+}
+
+.container input[type="text"],
+.container input[type="password"],
+.container textarea,
+.container select {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  color: #555;
+  font: 95% Arial, Helvetica, sans-serif;
+}
+.container input[type="text"]:focus,
+.container input[type="password"]:focus,
+.container textarea:focus,
+.container select:focus {
+  box-shadow: 0 0 5px #43d1af;
+  padding: 3%;
+  border: 1px solid #43d1af;
+}
+
+.container button[type="submit"] {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  padding: 3%;
+  background: #43d1af;
+  border-bottom: 2px solid #30c29e;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.container button[type="submit"]:hover {
+  background: #2ebc99;
+}
+
+/* Sign up Form Style */
+
+.signup-form {
+  font: 95% Arial, Helvetica, sans-serif;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 16px;
+  background: #f7f7f7;
+}
+.signup-form > h1 {
+  background: #43d1af;
+  padding: 20px 0;
+  font-size: 140%;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  margin: -16px -16px 16px -16px;
+}
+.signup-form input[type="text"],
+.signup-form input[type="text"],
+.signup-form input[type="password"],
+.signup-form input[type="password"],
+.signup-form textarea,
+.signup-form select {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  color: #555;
+  font: 95% Arial, Helvetica, sans-serif;
+}
+.signup-form input[type="text"]:focus,
+.signup-form input[type="text"]:focus,
+.signup-form input[type="password"]:focus,
+.signup-form input[type="password"]:focus,
+.signup-form textarea:focus,
+.signup-form select:focus {
+  box-shadow: 0 0 5px #43d1af;
+  padding: 3%; 
+  border: 1px solid #43d1af;
+}
+
+.signup-form button[type="submit"] {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  padding: 3%;
+  background: #43d1af;
+  border-bottom: 2px solid #30c29e;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  color: #fff;
+}
+.signup-form button[type="submit"]:hover {
+  background: #2ebc99;
+}
+
+.signup-text {
+  text-align: center;
+}
+
+.signup-link {
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-transform: uppercase;
+  color: #30c29e;
+  font-weight: bold;
+}
+
+.logout-button {
+  color: white;
+  background-color: rgb(241, 163, 157);
+  padding: 5px;
+}
+
+.logout-button:hover {
+  background: #e1ad01;
+}
+
+.log-msg {
+  text-align: center;
+  font-size: 30px;
+}
+
+.signup-error {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.signup-success {
+  text-align: center;
+  font-size: 30px;
+  color: #2ebc99;
+}
